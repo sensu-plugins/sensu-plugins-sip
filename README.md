@@ -1,6 +1,6 @@
 ## Sensu-Plugins-sip
 
-[![Build Status](https://travis-ci.org/sensu-plugins/sensu-plugins-sip.svg?branch=master)](https://travis-ci.org/sensu-plugins/sensu-plugins-sip)
+[ ![Build Status](https://travis-ci.org/sensu-plugins/sensu-plugins-sip.svg?branch=master)](https://travis-ci.org/sensu-plugins/sensu-plugins-sip)
 [![Gem Version](https://badge.fury.io/rb/sensu-plugins-sip.svg)](http://badge.fury.io/rb/sensu-plugins-sip)
 [![Code Climate](https://codeclimate.com/github/sensu-plugins/sensu-plugins-sip/badges/gpa.svg)](https://codeclimate.com/github/sensu-plugins/sensu-plugins-sip)
 [![Test Coverage](https://codeclimate.com/github/sensu-plugins/sensu-plugins-sip/badges/coverage.svg)](https://codeclimate.com/github/sensu-plugins/sensu-plugins-sip)
