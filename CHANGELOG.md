@@ -10,6 +10,8 @@ This CHANGELOG follows the format listed at [Keep A Changelog](http://keepachang
 - updated sensu-plugin gem to 1.2.0
 
 ## 0.0.1 - 2015-04-30
-
 ### Added
 - initial release
+
+[Unreleased]: https://github.com/sensu-plugins/sensu-plugins-sip/compare/0.0.2...HEAD
+[0.0.2]: https://github.com/sensu-plugins/sensu-plugins-sip/compare/0.0.1...0.0.2

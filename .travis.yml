@@ -16,13 +16,15 @@ notifications:
     on_failure: always
 script:
 - bundle exec rake default
+- gem build sensu-plugins-sip.gemspec
+- gem install sensu-plugins-sip-*.gem
 deploy:
   provider: rubygems
   api_key:
-    secure: ZOifuR1wphk1+J6VfyPjEYIFHeNOF4Twl/+rbwmf5Mf3PM6cdd+ffEZH4+MHlcyxpCPMJinuOfV3bD6vvXJzFiJ+isC5ABmSe50HYos2LYm60RKVj6XWInWOW3g5g3UEdn5zD5m6rFLqzAxVOy4X4EeZWU5Ew0JVQp3eVM089uQ=
+    secure: IZ1p7PFqLltB38dNKBjU2Ii7xxErcyoUIW1LuhlItahwOiMPTLfoWfzYot/xGZV1Zgxp2GqrxiiQ4DzdO2WNmygayq3agrBRvooWPGTxDgimuhSBmxCKb9K302IL5S4JFzq0Wvux1nWQMBbQeYzPcJNBnUBhXIm6LycxqRcJiag=
   gem: sensu-plugins-sip
   on:
-    tags: true
+    ags: true
     all_branches: true
     rvm: 1.9.3
     rvm: 2.0
