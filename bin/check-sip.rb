@@ -32,7 +32,6 @@ require 'timeout'
 
 class SIP < Sensu::Plugin::Check::CLI
   option :sipuri,
-         description: 'SIP URI to check',
          short: '-u URI',
          long: '--uri URI',
          description: 'SIP URI in sip:123@hostname format',
