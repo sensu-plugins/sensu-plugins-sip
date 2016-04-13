@@ -24,7 +24,7 @@ deploy:
     secure: IZ1p7PFqLltB38dNKBjU2Ii7xxErcyoUIW1LuhlItahwOiMPTLfoWfzYot/xGZV1Zgxp2GqrxiiQ4DzdO2WNmygayq3agrBRvooWPGTxDgimuhSBmxCKb9K302IL5S4JFzq0Wvux1nWQMBbQeYzPcJNBnUBhXIm6LycxqRcJiag=
   gem: sensu-plugins-sip
   on:
-    ags: true
+    tags: true
     all_branches: true
     rvm: 1.9.3
     rvm: 2.0
