@@ -10,6 +10,9 @@ This CHANGELOG follows the format listed at [Keep A Changelog](http://keepachang
 ### Removed
 - Support for Ruby < 2 (@eheydrick)
 
+## Changed
+- Update to Rubocop 0.40 and cleanup (@eheydrick)
+
 ## [0.0.2] - 2015-07-14
 ### Changed
 - updated sensu-plugin gem to 1.2.0
