@@ -86,7 +86,7 @@ class SIP < Sensu::Plugin::Check::CLI
       s.connect(config[:host], config[:port])
       req = build_request(hostname, s.addr[1], config[:sipuri])
       response = ''
-      timeout(config[:timeout]) do
+      Timeout.timeout(config[:timeout]) do
         s.send(req, 0)
         response = s.recvfrom(1024)[0]
       end
